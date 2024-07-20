@@ -25,6 +25,7 @@ public class lab011 {
 
         }
         System.out.println("loop out");
+        sc.close();
     }
 
 }
