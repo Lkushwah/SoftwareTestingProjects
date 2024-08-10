@@ -9,18 +9,24 @@ public class lab038 {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("how much you want to enter");
-        float num = sc.nextFloat();
+        int num = sc.nextInt();
 
-        float[] marks = new float[4];
+        float[] marks = new float[ num];
 
-        for (int i =0; i < marks.length; i++) {
+        for (int i =0; i < num ; i++) {
 
             System.out.println("enter marks for "+ (i +1));
             marks[i] = sc.nextInt();
 
         }
+        float sum = 0;
 
-        float f = marks[0]+ marks[1]+marks[2]+marks[3]/ marks.length;
+        for (int i = 0; i<num;i++){
+            sum +=marks[i];
+        }
+
+
+        float f = sum/num;
         System.out.println("avg value"+f);
 
 
