@@ -2,6 +2,8 @@ package July.ex_28072024;
 
 public class lab053 {
     public static void main(String[] args) {
+
+        // classname classref/variablename = new object name;
     Building dlf = new Building();
     dlf.name = "dlf";
     dlf.address = "ni";
