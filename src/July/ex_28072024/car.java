@@ -1,21 +1,12 @@
-package July.ex_28072024;
+package July.ex_28072024;public class car {
+    public String carname;
+    public String engine;
+    public String gearbox;
+    public int tyre;
 
-public class car {
-
-
-    String carname;
-    String engine;
-    String gearbox;
-    int tyre;
-
-    void running(){
-        System.out.println("running");
-    }
-    void started(){
-        System.out.println("started");
+    public void started() {
     }
 
-
-
-
+    public void running() {
+    }
 }
